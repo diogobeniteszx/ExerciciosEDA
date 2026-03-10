@@ -1,4 +1,17 @@
 public class Pilha <T> {
+    //1. Implementar uma pilha
+    //Crie uma classe Pilha que utilize um vetor para armazenar os elementos.
+    //A classe deve possuir:
+    //• um vetor chamado elementos
+    //• uma variável chamada tamanho
+
+    //Implemente os métodos:
+    //empilha(String elemento)
+    //desempilha()
+    //topo()
+    //estaVazia()
+    //tamanho()
+
     public T[] elementos;
     public int tamanho;
 

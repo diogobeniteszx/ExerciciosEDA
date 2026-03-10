@@ -1,5 +1,11 @@
 public class TestePilha2 {
     static void main() {
+        //4. Inverter uma palavra
+        //Utilize uma pilha para inverter a palavra:
+        //hello
+        //Saída esperada:
+        //olleh
+
         String palavra = "hello";
         Pilha<Character> pilha = new Pilha<>(palavra.length());
 

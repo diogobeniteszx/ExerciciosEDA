@@ -1,5 +1,11 @@
 public class TestePilha3 {
     static void main() {
+        //5. Verificar palíndromo
+        //Crie um programa que verifique se uma palavra é um palíndromo utilizando pilha.
+        //Exemplos:
+        //arara → É palíndromo
+        //casa → Não é palíndromo
+
         String palavra = "arara";
         Pilha<Character> pilha = new Pilha<>(palavra.length());
 
